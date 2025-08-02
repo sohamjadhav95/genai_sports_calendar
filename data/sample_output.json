@@ -1,0 +1,52 @@
+[
+  {
+    "name": "National Chess Open 2025",
+    "level": "National",
+    "start_date": "2025-09-10",
+    "end_date": "2025-09-12",
+    "url": "https://nationalsports.in/chess",
+    "streaming_links": ["https://youtube.com/chesslive"],
+    "image_url": "https://cdn.example.com/images/chess2025.jpg",
+    "summary": "Top players across the country compete for the title."
+  },
+  {
+    "name": "International Youth Soccer Cup",
+    "level": "International",
+    "start_date": "2025-08-20",
+    "end_date": "2025-08-30",
+    "url": "https://globalsoccer.com/youthcup",
+    "streaming_links": ["https://twitch.tv/youthsoccer"],
+    "image_url": "https://cdn.example.com/images/soccer2025.jpg",
+    "summary": "Youth teams from 10+ countries compete in a summer soccer showdown."
+  },
+  {
+    "name": "State Badminton League Finals",
+    "level": "State",
+    "start_date": "2025-10-05",
+    "end_date": "2025-10-07",
+    "url": "https://statebadminton.com/finals",
+    "streaming_links": ["https://youtube.com/badmintonlive"],
+    "image_url": "https://cdn.example.com/images/badminton2025.jpg",
+    "summary": "The best state teams compete for the championship."
+  },
+  {
+    "name": "Open Table Tennis Invitational",
+    "level": "Open",
+    "start_date": "2025-11-01",
+    "end_date": "2025-11-03",
+    "url": "https://tabletennisopen.com/",
+    "streaming_links": ["https://youtube.com/tabletennisopen"],
+    "image_url": "https://cdn.example.com/images/tabletennis2025.jpg",
+    "summary": "Open entry tournament for all skill levels."
+  },
+  {
+    "name": "College Basketball Classic",
+    "level": "College",
+    "start_date": "2025-12-12",
+    "end_date": "2025-12-15",
+    "url": "https://collegebasketball.com/classic",
+    "streaming_links": ["https://twitch.tv/collegebasketball"],
+    "image_url": "https://cdn.example.com/images/basketball2025.jpg",
+    "summary": "Top college teams face off in an annual classic."
+  }
+]

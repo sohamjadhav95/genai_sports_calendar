@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tournaments</title>
+</head>
+<body>
+    <div id="tournaments-container"></div>
+    <script>
+      fetch("/tournaments").then(r => r.json()).then(data => {
+        // render as cards
+        let html = data.map(t => `
+          <div style='border:1px solid #ccc;margin:10px;padding:10px;'>
+            <h3>${t.name}</h3>
+            <p><b>Level:</b> ${t.level}</p>
+            <p><b>Dates:</b> ${t.start_date} - ${t.end_date}</p>
+            <p><b>Summary:</b> ${t.summary}</p>
+            <a href='${t.url}' target='_blank'>Event Link</a>
+          </div>
+        `).join('');
+        document.getElementById('tournaments-container').innerHTML = html;
+      });
+    </script>
+</body>
+</html>

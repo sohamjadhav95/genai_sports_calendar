@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydantic
+requests
+beautifulsoup4
+sqlite3
+jinja2
+groq
+streamlit
