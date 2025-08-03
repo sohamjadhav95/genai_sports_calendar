@@ -32,7 +32,7 @@ if tournaments:
             cols[0].markdown(f"**Level:** {t['level']}")
             cols[1].markdown(f"**Dates:** {t['start_date']} - {t['end_date']}")
             cols[2].markdown(f"**URL:** [Event Link]({t['url']})" if t['url'] else "")
-            if t['image_url']:
+            if t['image_url'] and t['image_url'] != "N/A":
                 cols[3].image(t['image_url'], width=180)
             st.markdown(f"**Streaming:** {' | '.join(t['streaming_links']) if t['streaming_links'] else 'N/A'}")
             st.markdown(f"**Summary:** {t['summary']}")
