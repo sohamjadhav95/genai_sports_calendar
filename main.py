@@ -25,11 +25,14 @@ def get_tournaments():
 def refresh_tournaments():
     clear_all()
     urls = scrape_tournament_urls()
+    print("Scraped URLs:", urls)
     for url in urls:
         blocks = scrape_raw_tournament_blocks(url)
+        print(f"Blocks from {url}:", blocks)
         if not blocks:
             continue
         extracted = generate_tournament_structures(blocks)
+        print("Extracted tournaments:", extracted)
         for tournament in extracted:
             # Only insert if required fields are present
             if tournament.get("name") and tournament.get("start_date"):
